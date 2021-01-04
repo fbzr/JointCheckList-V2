@@ -19,7 +19,7 @@ import List from './components/screens/List';
 
 const Root = createStackNavigator();
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="light-content" />
